@@ -29,6 +29,9 @@ class ConversionWebViewController: UIViewController, UIWebViewDelegate {
         spinner.stopAnimating()
     }
 
+    @IBAction func refreshPage(sender: AnyObject) {
+        conversionWebpage.reload()
+    }
 
     /*
     // MARK: - Navigation
